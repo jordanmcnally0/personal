@@ -87,7 +87,7 @@
 background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    color: #fff;
+    color: #131313;
     transition: all 0.3s ease;
 
 }
@@ -572,3 +572,42 @@ background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, F
     transition: 0.3s ease-in;
     cursor: pointer;
 }
+
+.modal {
+    display: none; /* Hidden by default */
+    color: white;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #131313;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #131313;
+    width: 80%;
+    text-align: center; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #131313;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    cursor: pointer;
+  }
